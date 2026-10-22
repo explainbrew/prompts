@@ -1,2 +1,13 @@
-# prompts
-Prompts and links from Explainbrew videos
+# Explainbrew prompts
+
+Prompts, commands and links from [Explainbrew](https://www.tiktok.com/@explainbrew) videos. Copy, paste, make it yours.
+
+| Video | What it does | Prompt |
+| --- | --- | --- |
+| CRM in one prompt | Claude Code builds a CRM for a freelance designer on [Twenty](https://github.com/twentyhq/twenty) (open-source Salesforce alternative) | [twenty-crm](twenty-crm/) |
+
+New video → new folder. Each folder has the prompt, setup steps and links to the tools.
+
+## License
+
+Prompts are free to use, copy and adapt (CC0). Tools and repos mentioned belong to their authors and keep their own licenses.
