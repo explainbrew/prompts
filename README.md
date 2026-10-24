@@ -4,6 +4,7 @@ Prompts, commands and links from [Explainbrew](https://www.tiktok.com/@explainbr
 
 | Video | What it does | Prompt |
 | --- | --- | --- |
+| CleanYourTV: speed up an old Android TV | Turn off ads and bloat with one prompt to Claude Code / Codex / Gemini CLI, then switch debugging off | [cleanyourtv](cleanyourtv/) |
 | PHP2Shell: two critical PHP holes | Check and patch your PHP server (CVE-2026-109618 / 109619) | [php2shell](php2shell/) |
 | CRM in one prompt | Claude Code builds a CRM for a freelance designer on [Twenty](https://github.com/twentyhq/twenty) (open-source Salesforce alternative) | [twenty-crm](twenty-crm/) |
 
