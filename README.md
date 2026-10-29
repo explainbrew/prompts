@@ -4,6 +4,7 @@ Prompts, commands and links from [Explainbrew](https://www.tiktok.com/@explainbr
 
 | Video | What it does | Prompt |
 | --- | --- | --- |
+| remove.bg shuts down Dec 1: rembg instead | Remove backgrounds on your own computer, offline, with rembg + BiRefNet. Plus the license catch in the default model | [removebg-alternative](removebg-alternative/) |
 | ArtCraft: 13 open-source Adobe & Office clones | What PhotoCraft (the Photoshop clone) can do, what it can't, and how to try it | [artcraft](artcraft/) |
 | CleanYourTV: speed up an old Android TV | Turn off ads and bloat with one prompt to Claude Code / Codex / Gemini CLI, then switch debugging off | [cleanyourtv](cleanyourtv/) |
 | PHP2Shell: two critical PHP holes | Check and patch your PHP server (CVE-2026-109618 / 109619) | [php2shell](php2shell/) |
