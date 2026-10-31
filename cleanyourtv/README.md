@@ -74,3 +74,5 @@ There's a free, community-built [Android phone app](https://cleanyour.tv/app) by
 ---
 
 From the Explainbrew video about CleanYourTV. Facts checked against the project's README and the GitHub API on October 24, 2026. We're not affiliated with the project. Use it at your own risk: changing your TV's software may affect its warranty.
+
+See the [disclaimer](../README.md#disclaimer-use-at-your-own-risk).

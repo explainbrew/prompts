@@ -32,3 +32,4 @@ PhotoCraft runs on macOS, Windows, Linux and in the browser (WebAssembly). Downl
 
 ArtCraft is not affiliated with, sponsored by or endorsed by Adobe Inc.
 
+**Use at your own risk:** PhotoCraft is early-alpha software from a third party, provided as is, with no warranty. Back up your files before you open them in it. See the [disclaimer](../README.md#disclaimer-use-at-your-own-risk).

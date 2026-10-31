@@ -31,3 +31,5 @@ Add a Telegram field to Client.
 ```
 
 Make it yours: replace "for a freelance designer" with "for a barbershop", "for a tutor", "for a real estate agency".
+
+**Use at your own risk:** provided as is, with no warranty. Review the code your agent writes before you put real client data into it. See the [disclaimer](../README.md#disclaimer-use-at-your-own-risk).

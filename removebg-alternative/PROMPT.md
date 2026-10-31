@@ -27,11 +27,11 @@ RULES
    - hair / fur edges:  rembg i -m birefnet-general -vm -dc in.jpg out.png   (slower, cleaner edges; downloads a small ViTMatte model)
    - a whole folder:    rembg p -m birefnet-general ./photos ./cutouts
    - watch a folder:    rembg p -w -m birefnet-general ./inbox ./cutouts
-8. Glass / transparent products (OPTIONAL; ask me first, it's a bigger install, ~1.2 GB of PyTorch + ~880 MB model, about 1 minute per photo on a laptop CPU):
+8. Glass / transparent products (OPTIONAL; ask me first, it's a bigger install, ~1.2 GB of PyTorch + ~880 MB model, about 13 s per photo on a laptop CPU after the first run):
    - create a venv at ~/rembg-setup/glass-env with Python 3.12 (via uv)
    - install: torch torchvision transformers timm kornia einops opencv-python-headless pillow
-   - download glass.py from https://github.com/explainbrew/prompts/tree/main/removebg-alternative into ~/rembg-setup/ and read it to me in one paragraph before running it (it loads the model's code from Hugging Face with trust_remote_code, the same way the official BiRefNet demo does)
-   - run: HF_HOME=~/rembg-setup/hf ~/rembg-setup/glass-env/bin/python ~/rembg-setup/glass.py in.jpg out.png
+   - download glass.py from https://github.com/explainbrew/prompts/tree/main/glass-cutout into ~/rembg-setup/ and read it to me in one paragraph before running it (it loads the model's code from Hugging Face with trust_remote_code, the same way the official BiRefNet demo does)
+   - run: HF_HOME=~/rembg-setup/hf ~/rembg-setup/glass-env/bin/python ~/rembg-setup/glass.py in.jpg   (on Windows: glass-env\Scripts\python.exe; output is in.png next to the photo)
 9. Cleanup. When we're done (or whenever I say "clean up"), show me the list from INSTALLED.md and ask: remove everything you installed, keep it, or remove only some items? Then remove ONLY what you installed (never the pre-existing items), confirm each removal, and finally delete ~/rembg-setup/ itself (warn me first if my output photos are inside it, and offer to move them out).
    Typical removal commands (use the ones that match what you actually installed):
    - uv tool uninstall rembg
@@ -39,7 +39,7 @@ RULES
    - brew uninstall uv               (only if you installed uv with brew)
    - rm -rf ~/rembg-setup
    - also check ~/.rembg and ~/.u2net: if a model was downloaded there by mistake, remove it too (only if it did not exist before)
-10. Be honest about limits: glass comes out opaque with rembg models (that's what step 8 is for), the default model is non-commercial, and on CPU expect ~10–20 s per photo with birefnet-general.
+10. Be honest about limits: glass comes out opaque with rembg models (that's what step 8 is for), the default model is non-commercial, and on CPU a single rembg command takes ~25 s (mostly loading the model), a folder ~19 s per photo.
 
 Start with step 1 now: check my system and show me the plan.
 ```
@@ -51,10 +51,12 @@ Start with step 1 now: check my system and show me the plan.
 | | |
 | --- | --- |
 | Disk | ~1 GB for rembg + model; +~2 GB if you add the glass setup |
-| RAM | 8 GB recommended (the model peaked at 6–7 GB in our tests) |
-| Time per photo (MacBook Air M4, CPU) | ~9 s rembg · ~50 s glass model |
+| RAM | 8 GB recommended (peak memory was 7–9 GB in our tests) |
+| Time (MacBook Air M4, CPU) | ~25 s per rembg command · ~19 s/photo in a folder · ~13 s/photo glass model |
 | Internet | only for installing and the first model download; then it works offline |
 
 Your photos never leave your computer. The agent itself (Claude, ChatGPT, Gemini) does see the commands and file names it works with, so don't point it at folders with private documents.
 
 From the Explainbrew video about remove.bg alternatives. Not affiliated with rembg, BiRefNet or remove.bg.
+
+**Use at your own risk:** provided as is, with no warranty. See the [disclaimer](../README.md#disclaimer-use-at-your-own-risk).

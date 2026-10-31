@@ -45,3 +45,5 @@ Also check the PHP your web server actually uses (it can differ from the CLI): c
 ---
 
 From the Explainbrew video about PHP2Shell. Facts checked against php.net and W3Techs on October 22, 2026.
+
+**Use at your own risk:** provided as is, with no warranty. Test updates on a staging copy and back up your server before you patch. See the [disclaimer](../README.md#disclaimer-use-at-your-own-risk).
