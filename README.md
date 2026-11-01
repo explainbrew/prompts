@@ -12,6 +12,7 @@ Prompts, commands and links from Explainbrew videos. Copy, paste, make it yours.
 
 | Video | What it does | Prompt |
 | --- | --- | --- |
+| Insomnia: keep your MacBook awake with the lid closed | A free menu bar app (MIT) that keeps your Mac awake for a set time while Claude Code / Codex work, lid open or shut. What it changes on your Mac (a sudo rule) and how to undo it | [insomnia](insomnia/) |
 | remove.bg shuts down Dec 1: rembg instead (Short + 8-min YouTube guide) | Remove backgrounds on your own computer, offline, with rembg + BiRefNet (+ a prompt that makes your AI agent install and clean up everything). Plus the license catch in the default model | [removebg-alternative](removebg-alternative/) |
 | Glass cut-out that stays see-through | Free BiRefNet-matting script for bottles, wine glasses and clear plastic: folders, GPU, a no-AI mode for glass on black (+ AI-agent install prompt) | [glass-cutout](glass-cutout/) |
 | ArtCraft: 13 open-source Adobe & Office clones | What PhotoCraft (the Photoshop clone) can do, what it can't, and how to try it | [artcraft](artcraft/) |
