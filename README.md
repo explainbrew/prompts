@@ -12,6 +12,7 @@ Prompts, commands and links from Explainbrew videos. Copy, paste, make it yours.
 
 | Video | What it does | Prompt |
 | --- | --- | --- |
+| Old PC games in your browser | How 2000s games run in a tab (C++ → WebAssembly, Direct3D → WebGL), why code isn't the game, and one clean port that uses your own copy | [browser-games](browser-games/) |
 | How Claude Code makes these videos | The full pipeline: facts, AI voice, word timing, animation as code (Remotion), safe zones, scheduling — plus Hyperframes, a Claude Code plugin with a timeline editor | [claude-video-pipeline](claude-video-pipeline/) |
 | Insomnia: keep your MacBook awake with the lid closed | A free menu bar app (MIT) that keeps your Mac awake for a set time while Claude Code / Codex work, lid open or shut. What it changes on your Mac (a sudo rule) and how to undo it | [insomnia](insomnia/) |
 | remove.bg shuts down Dec 1: rembg instead (Short + 8-min YouTube guide) | Remove backgrounds on your own computer, offline, with rembg + BiRefNet (+ a prompt that makes your AI agent install and clean up everything). Plus the license catch in the default model | [removebg-alternative](removebg-alternative/) |
