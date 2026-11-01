@@ -1,0 +1,32 @@
+name: scheduled-merge
+# Publishes a branch named scheduled/<YYYY-MM-DD>T<HHMM>Z-<slug> into main once its time has passed (UTC).
+# Only accounts with write access can create branches here, so nobody else can schedule a merge.
+# GitHub may start cron runs 5-30 min late: schedule a little before the video goes out.
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: scheduled-merge
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Merge due branches
+        run: |
+          git config user.name "Explainbrew"
+          git config user.email "hi@explainbrew.com"
+          now=$(date -u +%Y%m%d%H%M)
+          for ref in $(git for-each-ref --format='%(refname:strip=4)' 'refs/remotes/origin/scheduled/'); do
+            ts=$(echo "$ref" | sed -nE 's/^([0-9]{4})-([0-9]{2})-([0-9]{2})T([0-9]{2})([0-9]{2})Z-.+$/\1\2\3\4\5/p')
+            if [ -z "$ts" ]; then echo "skip $ref: name must be YYYY-MM-DDTHHMMZ-slug"; continue; fi
+            if [ "$ts" -gt "$now" ]; then echo "wait $ref"; continue; fi
+            git merge --no-ff -m "Publish $ref" "origin/scheduled/$ref"
+            git push origin HEAD:main
+            git push origin --delete "scheduled/$ref"
+            echo "published $ref"
+          done
