@@ -12,6 +12,7 @@ Prompts, commands and links from Explainbrew videos. Copy, paste, make it yours.
 
 | Video | What it does | Prompt |
 | --- | --- | --- |
+| gpu-unlock: GeForce at half-speed AI | NVIDIA's own whitepaper numbers, what the Linux module changes, the real-world gain and the risks. Not a how-to | [gpu-unlock](gpu-unlock/) |
 | REA: reverse engineering with Claude Code | Official sources only (fake copies are spreading), what it can and can't do, and what it refuses | [rea](rea/) |
 | Old PC games in your browser | How 2000s games run in a tab (C++ → WebAssembly, Direct3D → WebGL), why code isn't the game, and one clean port that uses your own copy | [browser-games](browser-games/) |
 | How Claude Code makes these videos | The full pipeline: facts, AI voice, word timing, animation as code (Remotion), safe zones, scheduling — plus Hyperframes, a Claude Code plugin with a timeline editor | [claude-video-pipeline](claude-video-pipeline/) |
