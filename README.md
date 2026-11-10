@@ -12,6 +12,7 @@ Prompts, commands and links from Explainbrew videos. Copy, paste, make it yours.
 
 | Video | What it does | Prompt |
 | --- | --- | --- |
+| How it works: the loose tape measure hook | Why the hook slides exactly its own thickness, why the blade shouldn't slam, and why it stands stiff in the air, with patent and manufacturer sources | [how-it-works-tape-measure](how-it-works-tape-measure/) |
 | What Claude Code does in our reels | Who does what: facts, script, scenes as code, word timing and render vs. the AI voice and our "yes". An overview, not a recipe | [claude-edits-your-reel](claude-edits-your-reel/) |
 | Free My TV: a clean home screen on Samsung and LG | What it really does on each TV (an app next to LG's / Samsung's home screen, not an ad remover), the install steps, LG's 40-day Developer Mode deadline and how to remove it | [free-my-tv](free-my-tv/) |
 | gpu-unlock: GeForce at half-speed AI | NVIDIA's own whitepaper numbers, what the Linux module changes, the real-world gain and the risks. Not a how-to | [gpu-unlock](gpu-unlock/) |
