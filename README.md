@@ -12,6 +12,7 @@ Prompts, commands and links from Explainbrew videos. Copy, paste, make it yours.
 
 | Video | What it does | Prompt |
 | --- | --- | --- |
+| Free My TV: a clean home screen on Samsung and LG | What it really does on each TV (an app next to LG's / Samsung's home screen, not an ad remover), the install steps, LG's 40-day Developer Mode deadline and how to remove it | [free-my-tv](free-my-tv/) |
 | gpu-unlock: GeForce at half-speed AI | NVIDIA's own whitepaper numbers, what the Linux module changes, the real-world gain and the risks. Not a how-to | [gpu-unlock](gpu-unlock/) |
 | REA: reverse engineering with Claude Code | Official sources only (fake copies are spreading), what it can and can't do, and what it refuses | [rea](rea/) |
 | Old PC games in your browser | How 2000s games run in a tab (C++ → WebAssembly, Direct3D → WebGL), why code isn't the game, and one clean port that uses your own copy | [browser-games](browser-games/) |
