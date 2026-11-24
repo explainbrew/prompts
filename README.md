@@ -12,6 +12,7 @@ Prompts, commands and links from Explainbrew videos. Copy, paste, make it yours.
 
 | Video | What it does | Prompt |
 | --- | --- | --- |
+| Five free tools, a whole motion stack | yt-dlp, whisper.cpp, HyperFrames, FFmpeg and ffmpeg-skill: what each one does in a motion workflow, licences and one command for each | [tool-free-motion-stack](tool-free-motion-stack/) |
 | How it works: the NES light gun and the duck | Why the gun never "shot" anything: a trigger switch and a light sensor, the black frame and the white box, why a bulb can't fool it (~15 kHz) and why it fails on flat screens | [how-it-works-light-gun](how-it-works-light-gun/) |
 | Claude privacy settings | Checklist: model training, incognito chats, memory, export and delete, the exceptions, and Claude Code telemetry. As of Nov 2026, consumer plans | [claude-privacy-settings](claude-privacy-settings/) |
 | Free Cursor alternatives: Zed, Cline, OpenCode | Three open-source tools for $0, the catch (the model isn't free), and setup with a local Ollama model or your own API key. Prices as of Nov 10, 2026 | [free-alternative-subscription](free-alternative-subscription/) |
