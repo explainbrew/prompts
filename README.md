@@ -12,6 +12,7 @@ Prompts, commands and links from Explainbrew videos. Copy, paste, make it yours.
 
 | Video | What it does | Prompt |
 | --- | --- | --- |
+| How it works: why your pencil tip snaps in the sharpener | Sharp vs dull blade, the off-centre core, and the tiny planetary gearbox inside a crank sharpener, with sources | [how-it-works-pencil-sharpener](how-it-works-pencil-sharpener/) |
 | lemo-opuscar: a whole film from one prompt | A Claude Code plugin with 99 film styles: install, one-sentence prompt, what it builds in code, and the honest catch (30–60 min per film) | [tool-lemo-opuscar](tool-lemo-opuscar/) |
 | How it works: there is no pump in a spray can | Liquefied propellant pushes the paint up the dip tube, the spring valve, why the paint mists, and what the rattling ball is for, with sources | [how-it-works-spray-can](how-it-works-spray-can/) |
 | Five free tools, a whole motion stack | yt-dlp, whisper.cpp, HyperFrames, FFmpeg and ffmpeg-skill: what each one does in a motion workflow, licences and one command for each | [tool-free-motion-stack](tool-free-motion-stack/) |
