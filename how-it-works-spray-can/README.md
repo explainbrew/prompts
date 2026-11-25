@@ -22,7 +22,7 @@ Episode 4 of "How ___ actually works". Sources at the bottom.
 
 ## How the video was made
 
-The pictures are AI-generated photoreal illustrations (Gemini, GPT Image), cut and animated in code in a paper-collage style; the blueprints are AI-generated too. Voice: AI.
+The pictures are cut and animated in code in a paper-collage style. Voice: AI.
 
 **Your product, explained like this?** Email us: **hi@explainbrew.com**
 
