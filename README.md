@@ -12,6 +12,7 @@ Prompts, commands and links from Explainbrew videos. Copy, paste, make it yours.
 
 | Video | What it does | Prompt |
 | --- | --- | --- |
+| lemo-opuscar: a whole film from one prompt | A Claude Code plugin with 99 film styles: install, one-sentence prompt, what it builds in code, and the honest catch (30–60 min per film) | [tool-lemo-opuscar](tool-lemo-opuscar/) |
 | How it works: there is no pump in a spray can | Liquefied propellant pushes the paint up the dip tube, the spring valve, why the paint mists, and what the rattling ball is for, with sources | [how-it-works-spray-can](how-it-works-spray-can/) |
 | Five free tools, a whole motion stack | yt-dlp, whisper.cpp, HyperFrames, FFmpeg and ffmpeg-skill: what each one does in a motion workflow, licences and one command for each | [tool-free-motion-stack](tool-free-motion-stack/) |
 | How it works: the NES light gun and the duck | Why the gun never "shot" anything: a trigger switch and a light sensor, the black frame and the white box, why a bulb can't fool it (~15 kHz) and why it fails on flat screens | [how-it-works-light-gun](how-it-works-light-gun/) |
